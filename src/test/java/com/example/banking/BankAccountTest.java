@@ -52,7 +52,7 @@ class BankAccountTest {
             account.withdraw(-20);
         });
 
-        assertEquals("Deposit must be a positive amount.", exception.getMessage());
+        assertEquals("Withdrawal must be a positive amount.", exception.getMessage());
 
     }
     
