@@ -1,4 +1,4 @@
-package main.java.com.example.banking;
+package com.example.banking;
 
 import java.util.HashMap;
 import java.util.Map;

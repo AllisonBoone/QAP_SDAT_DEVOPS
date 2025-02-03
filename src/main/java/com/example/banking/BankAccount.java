@@ -1,4 +1,4 @@
-package main.java.com.example.banking;
+package com.example.banking;
 
 // Created class for deposit, withdrawal and account balance.
 public class BankAccount {
@@ -9,6 +9,11 @@ public class BankAccount {
     public BankAccount (String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
         this.balance = initialBalance;
+    }
+    
+    // Created getter methods.
+    public String getAccountNumber() {
+        return accountNumber;
     }
 
     // Gets current account balance.
